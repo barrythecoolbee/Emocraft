@@ -11,15 +11,15 @@
 <br />
 <div align="center">
   <a href="https://github.com/barrythecoolbee/Emocraft">
-    <img src="Assets/Sprites/CharSprites/Idle/Idle1.png" alt="Logo" width="170" height="250">
+    <img src="Assets/Screenshots/Ambiente2.png" alt="Logo">
   </a>
 
 <h3 align="center">Emocraft</h3>
 
   <p align="center">
     AI and Optimization in Infinite Worlds (Procedural Content Generation).
-
-    Generation and building of block-based virtual worlds with dynamic elements (Minecraft type), considerations on performance optimization of the rendering process and             introduction to ML-Agents.
+    Generation and building of block-based virtual worlds with dynamic elements (Minecraft type),
+    considerations on performance optimization of the rendering process and introduction to ML-Agents.
     <br />
     <br />
     >>
@@ -37,7 +37,7 @@
 ## About The Project
 
 <p align="center">
-<img src="Assets/Sprites/UI/Untitled_Artwork 9.png" alt="Logo">
+<img src="Assets/Screenshots/capa.png" alt="Logo">
 </p>
 
 This game was created during the last semester of my bachelor's degree. The project took approximately 2 months to be developed and involved:
