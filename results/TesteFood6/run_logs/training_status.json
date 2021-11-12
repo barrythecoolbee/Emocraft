@@ -1,0 +1,23 @@
+{
+    "FoodAgent": {
+        "checkpoints": [
+            {
+                "steps": 489789,
+                "file_path": "results\\TesteFood6\\FoodAgent\\FoodAgent-489789.onnx",
+                "reward": 1.0490000564604998,
+                "creation_time": 1621767519.1183534
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 489789,
+            "file_path": "results\\TesteFood6\\FoodAgent.onnx",
+            "reward": 1.0490000564604998,
+            "creation_time": 1621767519.1183534
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.1",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AICar": {
+        "checkpoints": [
+            {
+                "steps": 40876,
+                "file_path": "results\\Car1\\AICar\\AICar-40876.onnx",
+                "reward": 3.9948227328638874,
+                "creation_time": 1622397131.9367766
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 40876,
+            "file_path": "results\\Car1\\AICar.onnx",
+            "reward": 3.9948227328638874,
+            "creation_time": 1622397131.9367766
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.1",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "AICar": {
+        "checkpoints": [
+            {
+                "steps": 100944,
+                "file_path": "results\\Car4\\AICar\\AICar-100944.onnx",
+                "reward": 6.373249888420105,
+                "creation_time": 1622401238.9214149
+            },
+            {
+                "steps": 104523,
+                "file_path": "results\\Car4\\AICar\\AICar-104523.onnx",
+                "reward": 3.881049916893244,
+                "creation_time": 1622403813.5233717
+            },
+            {
+                "steps": 499951,
+                "file_path": "results\\Car4\\AICar\\AICar-499951.onnx",
+                "reward": 3.1280627101659775,
+                "creation_time": 1622405269.145075
+            },
+            {
+                "steps": 999981,
+                "file_path": "results\\Car4\\AICar\\AICar-999981.onnx",
+                "reward": 3.8964999675750733,
+                "creation_time": 1622406971.5791638
+            },
+            {
+                "steps": 1250958,
+                "file_path": "results\\Car4\\AICar\\AICar-1250958.onnx",
+                "reward": null,
+                "creation_time": 1622407969.0762172
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1250958,
+            "file_path": "results\\Car4\\AICar.onnx",
+            "reward": null,
+            "creation_time": 1622407969.0762172
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.1",
+        "torch_version": "1.7.1+cu110"
+    }
+}

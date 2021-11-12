@@ -1,0 +1,29 @@
+behaviors:
+  FoodAgent:
+    trainer_type: ppo #ppo ou sack (?)
+    hyperparameters:
+      batch_size: 256  #os parâmetros da rede neuronal são a tualizados a cada 256
+      buffer_size: 1024  #partido em 4 batches
+      learning_rate: 6.0e-4
+      beta: 5.0e-4
+      epsilon: 0.2
+      lambd: 0.99
+      num_epoch: 3
+      learning_rate_schedule: linear
+    network_settings:
+      normalize: false
+      hidden_units: 128
+      num_layers: 2 #rede com 2 camadas (128 unidades por camada)
+    reward_signals:
+      extrinsic: #são as recompensas do ambiente
+        gamma: 0.99 #pesar recompensas futuras (fator de desconto)
+        strength: 1.0  
+    #  gail:  #### depois de fazer o demo ###
+    #    strength: 0.0 #deve ser relativamente pequeno porque o objetivo é que ele seja melhor que o humano
+    #    demo_path: Demos\FoodAgent.demo
+    max_steps: 500000
+    time_horizon: 64 #ao fim de 64 steps faz-se uma estimativa da recompensa total do episódio o que é útil para quando temos recompensas esparsas (demasiadas vezes 0) ou episódios muito grandes
+    summary_freq: 10000 #envia para a consola a cada 10 000
+    
+    
+    #Para cada problema podemos partir de uma configuração de parâmetros e ir ajustando-los à medida que se avança

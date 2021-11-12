@@ -1,0 +1,41 @@
+{
+    "FoodAgent": {
+        "checkpoints": [
+            {
+                "steps": 58049,
+                "file_path": "results\\Teste1\\FoodAgent\\FoodAgent-58049.onnx",
+                "reward": 0.18775001949527198,
+                "creation_time": 1621437005.9362364
+            },
+            {
+                "steps": 63846,
+                "file_path": "results\\Teste1\\FoodAgent\\FoodAgent-63846.onnx",
+                "reward": 0.3968163369109436,
+                "creation_time": 1621437195.771011
+            },
+            {
+                "steps": 72546,
+                "file_path": "results\\Teste1\\FoodAgent\\FoodAgent-72546.onnx",
+                "reward": 0.33272857623440877,
+                "creation_time": 1621437584.2965467
+            },
+            {
+                "steps": 191298,
+                "file_path": "results\\Teste1\\FoodAgent\\FoodAgent-191298.onnx",
+                "reward": 1.862645149230957e-08,
+                "creation_time": 1621500381.1023655
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 191298,
+            "file_path": "results\\Teste1\\FoodAgent.onnx",
+            "reward": 1.862645149230957e-08,
+            "creation_time": 1621500381.1023655
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.1",
+        "torch_version": "1.7.1+cu110"
+    }
+}
